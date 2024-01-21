@@ -1,0 +1,22 @@
+<p>
+  {{ widgetInput }}
+</p>
+
+<div class="row">
+  <input
+    type="number"
+    id="a"
+    [(ngModel)]="numberOne"
+  />
+  <input
+    type="number"
+    id="b"
+    [(ngModel)]="numberTwo"
+  />
+</div>
+<div class="row">
+<button (click)="add()">Add</button>
+<button (click)="susbtract()">Susbtract</button>
+<button (click)="multiply()">Multiply</button>
+<button (click)="divide()">Divide</button>
+</div>
